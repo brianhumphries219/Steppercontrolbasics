@@ -1,0 +1,15 @@
+/*
+Written for Arduino to do basic stepper motor controls via manual input. (button or keypress?)
+
+Basic structure idea (eventuality, small modules/basic shit to start)
+-looks to a config file for user-alterable variables per motor (enable/disable, movement ratio from steps, rpm, acceleration, max steps)
+-Can control up to 5 motors
+-can use a controller to move motors (like an xbox controller/strung together with parts); or jogwheel, joystick, etc
+-counts steps and displays to computer/console for each motor
+-waypoint system: "set" function once at a location. Can have multiple waypoints, go to command.
+
+
+*/
+
+
+#include <Stepper.h>
